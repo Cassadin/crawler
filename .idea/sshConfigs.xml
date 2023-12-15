@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="SshConfigs">
+    <configs>
+      <sshConfig host="talutah.de" id="06495bbc-98fb-4be6-b99d-6f59b6f4dc30" keyPath="C:\Users\treichel\.ssh\chiroxt-talutah" port="2841" nameFormat="DESCRIPTIVE" username="chiroxt" useOpenSSHConfig="true" />
+    </configs>
+  </component>
+</project>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="e3680b5f-a772-4c91-b9f2-5408eeb40aa1" name="crawler.talutah.de" url="http://crawler.talutah.de">
+        <fileTransfer rootFolder="/var/www/html/vhosts/crawler.talutah.de" accessType="SFTP" host="talutah.de" port="2841" sshConfigId="06495bbc-98fb-4be6-b99d-6f59b6f4dc30" sshConfig="chiroxt@talutah.de:2841 key" keyPair="true">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="0" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
