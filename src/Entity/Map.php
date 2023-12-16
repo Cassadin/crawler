@@ -32,6 +32,11 @@ class Map
      */
     private $type;
 
+    /**
+     * @ORM\Column(type="integer")
+     */
+    private $value;
+
     public function getId(): ?int
     {
         return $this->id;
@@ -69,6 +74,18 @@ class Map
     public function setType(string $type): self
     {
         $this->type = $type;
+
+        return $this;
+    }
+
+    public function getValue(): ?int
+    {
+        return $this->value;
+    }
+
+    public function setValue(int $value): self
+    {
+        $this->value = $value;
 
         return $this;
     }
